@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  neo4j:
+    image: "neo4j:4.4.8-community"
+    ports:
+      - "7474:7474" # HTTP
+      - "7676:7676" # HTTPS
+      - "7687:7687" # Bolt
+    environment:
+      - NEO4J_AUTH=none
+      - NEO4JLABS_PLUGINS=["apoc"]
+    volumes:
+      - ./data/neo4j:/data
