@@ -8,7 +8,10 @@ Supported databases:
 
 ## Development
 
-The prerequisites are _Java 17_ and _Docker Compose_, you can use any OpenJDK distribution e.g. GraalVM.
+The prerequisites are
+- _Java 17_, you can use any OpenJDK distribution e.g. [GraalVM](https://www.graalvm.org/),
+- [_Maven_](https://maven.apache.org/install.html), 
+- and [_Docker Compose_](https://docs.docker.com/compose/install/).
 
 ### Install
 
