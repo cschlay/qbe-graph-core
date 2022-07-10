@@ -1,4 +1,4 @@
-package _classes;
+package classes;
 
 import db.Neo4jConnection;
 import misc.Configuration;

@@ -1,6 +1,6 @@
 package db;
 
-import _classes.BaseTestClass;
+import classes.BaseTestClass;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
